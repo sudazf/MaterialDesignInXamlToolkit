@@ -94,7 +94,6 @@
       <AdornerDecorator CacheMode="{Binding RelativeSource={RelativeSource Self}, Path=(wpf:ShadowAssist.CacheMode)}">
         <Ellipse x:Name="grip"
                  Margin="-1,0"
-                 Effect="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=RangeBase}, Path=(wpf:ElevationAssist.Elevation), Converter={x:Static converters:ShadowConverter.Instance}}"
                  Fill="{TemplateBinding Foreground}" />
       </AdornerDecorator>
     </Grid>
